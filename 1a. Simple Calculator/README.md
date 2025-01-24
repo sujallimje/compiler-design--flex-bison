@@ -1,4 +1,4 @@
-# Write a simple calculator program in C++
+# Write a simple calculator program in C++ with prefix to postfix conversion of arithmetic expressions
 
 ## Features of the calculator:
 - Take input from standard input.
@@ -47,12 +47,21 @@ poppedcharacter is not matching starting bracket, return “not balanced”.
    
 ### Example run of the program:
 Input: 2 + 3 * 5
+
 Output: 17
+
 Input 2: (2 + 3) * 5
+
 Output 2: 25
+
 Input 3: 30 / 5 / 2
+
 Output 3: 3
+
 Input 4: 2 ^ 3 ^ 2
+
 Output 4: 64
+
 Input 5: (2 ^ 3) ^ 2
+
 Output 5: 36
