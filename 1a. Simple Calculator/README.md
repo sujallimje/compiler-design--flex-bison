@@ -1,13 +1,14 @@
-Write a simple calculator program in C++
+# Write a simple calculator program in C++
 
-Features of the calculator:
- Take input from standard input.
- On each line an arithmetic expression can be given in the standard format and the
-calculator
- must print the o/p after that.
- The calculator should exit, when the user enters the Ctrl^D (eof) character.
- Supported operators: +, -, *, /, ^, and ().
-Procedure for simple calculator:
+## Features of the calculator:
+- Take input from standard input.
+- On each line an arithmetic expression can be given in the standard format and thecalculator
+- must print the o/p after that.
+- The calculator should exit, when the user enters the Ctrl^D (eof) character.
+- Supported operators: +, -, *, /, ^, and ().
+
+  
+## Procedure for simple calculator:
 1. Read a line of input
 2. If input is Ctrl^D terminate the program
 3. If the expression is not balanced for parenthesis report error and go to step 1
@@ -18,7 +19,8 @@ they appear
 the operation
 7. Push the result on to the stack
 8. Print the result and got to step 1
-Procedure for post-fix conversion:
+
+## Procedure for post-fix conversion:
 1. Scan the expression from left to right
 2. If the scanned character is operand place it in postfix expression
 3. If the scanned character is an operand
@@ -35,14 +37,15 @@ encountered, and discard both the parenthesis.
 expression until it is not empty.
 8. Return the postfix expression.
 
-Procedure for Balancing Symbols:
+## Procedure for Balancing Symbols:
 1. Traverse the expression from left to right.
 a. If the current character is a starting bracket, then push it to stack
 b. If the current character is a closing bracket, then pop from stack and if the
 poppedcharacter is not matching starting bracket, return “not balanced”.
 2. If there is some starting bracket left in stack then return “not balanced”
 3. Return balanced
-Example run of the program:
+   
+### Example run of the program:
 Input: 2 + 3 * 5
 Output: 17
 Input 2: (2 + 3) * 5
